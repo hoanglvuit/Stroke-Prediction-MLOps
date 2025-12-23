@@ -44,12 +44,11 @@ File `dvc.yaml` định nghĩa: khi `deps` thay đổi → tự động chạy `
 dvc repro  # Chạy training nếu deps thay đổi
 ```
 
-Sau đó commit `dvc.lock` (chứa checksum của tất cả deps/outs):
+Sau đó commit lại:
 
 ```powershell
-dvc add dvc.lock
-git add dvc.lock
-git commit -m "Update dvc lock"
+git add .
+git commit -m "third ex"
 ```
 
 ## 🔬 Quy trình Thí nghiệm

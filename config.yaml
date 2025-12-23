@@ -19,14 +19,14 @@ data:
       - work_type
       - Residence_type
       - smoking_status
-    encoding: one_hot # one_hot or label or target
+    encoding: target # one_hot or label or target
 
 train: 
   n_estimators: 500
   learning_rate: 0.1
   max_depth: 4
-  gamma: 2
-  subsample: 0.6
+  gamma: 0
+  subsample: 0.8
   colsample_bytree: 0.8
   random_state: 22520465
   objective: binary:logistic

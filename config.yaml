@@ -4,7 +4,7 @@ data:
   random_state: 22520465
   target: stroke 
   number_features: 
-    missing_values: mean # remove or mean or median or most_frequent
+    missing_values: remove # remove or mean or median or most_frequent
     log_transform: true # true or false
     features:
       - age

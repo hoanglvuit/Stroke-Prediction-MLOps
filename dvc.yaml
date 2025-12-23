@@ -1,0 +1,10 @@
+stages:
+  train: 
+    cmd: python src/train.py
+    deps:
+      - src/train.py
+      - src/processing_data.py
+      - config.yaml
+      - data/healthcare-dataset-stroke-data.csv
+    outs:
+      - models/xgb_model.pkl

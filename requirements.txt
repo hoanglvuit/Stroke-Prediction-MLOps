@@ -1,0 +1,7 @@
+mlflow
+dvc 
+scikit-learn 
+pandas 
+numpy 
+matplotlib
+xgboost

@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: config.yaml
+      hash: md5
+      md5: f8dbadd9c192088de6dbeff23b11ca75
+      size: 747
+    - path: data/healthcare-dataset-stroke-data.csv
+      hash: md5
+      md5: 3f25a4c2f2963d969e1a156c08968577
+      size: 316971
+    - path: src/processing_data.py
+      hash: md5
+      md5: 0f31e0ed6117d93789ad1f8ca5c83a9b
+      size: 4142
+    - path: src/train.py
+      hash: md5
+      md5: fd531897622da5513842909ef07a3788
+      size: 2121
+    outs:
+    - path: models/xgb_model.pkl
+      hash: md5
+      md5: 71f423284dc3c2f3515023097558bd8a
+      size: 194063

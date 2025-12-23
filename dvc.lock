@@ -5,8 +5,8 @@ stages:
     deps:
     - path: config.yaml
       hash: md5
-      md5: 70860bfaf58a581e82434a7bbbe3865d
-      size: 748
+      md5: 500f53a27e84a2762528152e42ef34f9
+      size: 747
     - path: data/healthcare-dataset-stroke-data.csv
       hash: md5
       md5: 3f25a4c2f2963d969e1a156c08968577
@@ -22,5 +22,5 @@ stages:
     outs:
     - path: models/xgb_model.pkl
       hash: md5
-      md5: 048335f9ece98e1a415e607c191bd532
-      size: 1385654
+      md5: 5b222921ccfb2cd502bc5b1be06ec3f7
+      size: 728582
